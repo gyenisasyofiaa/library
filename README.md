@@ -33,26 +33,29 @@ library-loan/
 │   ├── index.js
 │   └── package.json
 └── frontend/
-    └── src/
-        ├── components/LoanTable.jsx
-        ├── pages/Home.jsx
-        ├── pages/CreateLoan.jsx
-        ├── pages/EditLoan.jsx
-        ├── services/loanService.js
-        ├── App.jsx
-        ├── main.jsx
-        └── index.css
+    ├── src/
+    │   ├── components/LoanTable.jsx
+    │   ├── pages/Home.jsx
+    │   ├── pages/CreateLoan.jsx
+    │   ├── pages/EditLoan.jsx
+    │   ├── services/loanService.js
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── index.css
     └── package.json
 
 ---
 
 ## 🚀 Cara Menjalankan Proyek Secara Lokal
+
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi di komputer lokal Anda:
 
 ### Prasyarat
 Pastikan komputer Anda sudah menginstal:
 * [Node.js](https://nodejs.org/) (versi LTS direkomendasikan)
 * Git (untuk mengunduh repositori)
+
+---
 
 ### Langkah-langkah Instalasi:
 
