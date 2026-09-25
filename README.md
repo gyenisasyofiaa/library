@@ -79,7 +79,7 @@ Buat database baru melalui phpMyAdmin dengan nama library_loan.
 ---
 5. **Jalankan server lokal(development mode)**
 
-   ```
+   
    **Backend**
    ```bash
    cd backend
@@ -98,6 +98,8 @@ Buat database baru melalui phpMyAdmin dengan nama library_loan.
    npm run dev
    ```
 
+
+
 6. **Buka di Browser**
    Buka browser Anda dan akses tautan berikut:
    `http://localhost:5173/`
@@ -105,12 +107,16 @@ Buat database baru melalui phpMyAdmin dengan nama library_loan.
 ---
 
 ## 🔗 Endpoint API (Backend Integration)
-Method HTTP,Endpoint URL,Deskripsi Fungsi
-GET,/peminjaman,Mengambil seluruh data daftar peminjaman buku
-GET,/peminjaman/:id,Mengambil detail data berdasarkan ID untuk form edit
-POST,/peminjaman,Menambahkan data peminjaman buku baru
-PUT / PATCH,/peminjaman/:id,Memperbarui data peminjaman berdasarkan ID
-DELETE,/peminjaman/:id,Menghapus data peminjaman berdasarkan ID
+Method HTTP,        Endpoint URL,        Deskripsi Fungsi
+GET,                /peminjaman,        Mengambil seluruh data daftar peminjaman buku
+
+GET,                /peminjaman/:id,        Mengambil detail data berdasarkan ID untuk form edit
+
+POST,                /peminjaman,        Menambahkan data peminjaman buku baru
+
+PUT / PATCH,        /peminjaman/:id,        Memperbarui data peminjaman berdasarkan ID
+
+DELETE,            /peminjaman/:id,        Menghapus data peminjaman berdasarkan ID
 
 ---
 
