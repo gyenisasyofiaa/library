@@ -43,11 +43,10 @@ library-loan/
     │   ├── main.jsx
     │   └── index.css
     └── package.json
+```
 
 ---
-
-## 🚀 Cara Menjalankan Proyek Secara Lokal
-
+## 🚀 Cara Menjalankan Proyek
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi di komputer lokal Anda:
 
 ### Prasyarat
@@ -55,10 +54,8 @@ Pastikan komputer Anda sudah menginstal:
 * [Node.js](https://nodejs.org/) (versi LTS direkomendasikan)
 * Git (untuk mengunduh repositori)
 
----
-
 ### Langkah-langkah Instalasi:
-
+Clone repositori ini ke komputer Anda
 1. **Clone repositori ini ke komputer Anda**
    ```bash
    git clone https://github.com/gyenisasyofiaa/portofolio.git
@@ -70,8 +67,20 @@ Pastikan komputer Anda sudah menginstal:
    ```
    
 3. **Install semua *dependencies* yang diperlukan**
+   ```bash
+   npm install
+   ```
+   *(Atau Anda bisa menggunakan `yarn install` / `pnpm install`)*
    
-  **Backend**
+4. **Konfigurasi Database**
+Di jendela utama Laragon, klik tombol "Start All".Tombol ini akan mengaktifkan Apache/Nginx dan MySQL secara bersamaan. Pastikan status layanan berubah menjadi Running.
+Buat database baru melalui phpMyAdmin dengan nama library_loan.
+
+---
+5. **Jalankan server lokal(development mode)**
+
+   ```
+   **Backend**
    ```bash
    cd backend
    ```
@@ -79,6 +88,7 @@ Pastikan komputer Anda sudah menginstal:
    ```bash
    nodemon index
    ```
+   
    **Frontend**
    ```bash
    cd frontend
@@ -87,12 +97,8 @@ Pastikan komputer Anda sudah menginstal:
    ```bash
    npm run dev
    ```
-4. **Konfigurasi Database**
-Di jendela utama Laragon, klik tombol "Start All".Tombol ini akan mengaktifkan Apache/Nginx dan MySQL secara bersamaan. Pastikan status layanan berubah menjadi Running.
-Buat database baru melalui phpMyAdmin dengan nama library_loan.
 
----
-5. **Buka di Browser**
+6. **Buka di Browser**
    Buka browser Anda dan akses tautan berikut:
    `http://localhost:5173/`
 
