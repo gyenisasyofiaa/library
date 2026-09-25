@@ -120,6 +120,29 @@ DELETE,/peminjaman/:id,Menghapus data peminjaman berdasarkan ID
 
 ---
 
+
+---
+
+## Interface 
+
+**Home Page**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a0ab79bf-79fc-4fd9-906b-d5304733bf7e" />
+
+**Create Data Page**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/67c5cf8a-f2ab-4e25-b8dc-0f827381c834" />
+
+**Edit Page**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e7e3ef3f-43e6-4215-8e84-90182b9be5a9" />
+
+**Uji Coba Backend (request.rest)**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6a69809c-43b0-4e38-b7eb-baa5327c52b4" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fc4af3ff-35e0-4572-83f0-95c073370571" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e87934ef-2637-41f3-b32f-126282336c1f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ab38f48-1ab8-4062-a7eb-773eaf5c8582" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/451e7f36-f916-46f3-8344-2d36eefa2e3f" />
+
+---
+
 ## ⚠️ Kendala dan Solusi Teknis
 ## Format Tanggal pada Form Edit:
 
