@@ -60,11 +60,14 @@ Pastikan komputer Anda sudah menginstal:
    ```bash
    git clone https://github.com/gyenisasyofiaa/portofolio.git
    ```
+
 2. **Masuk ke direktori proyek**
    ```bash
    cd fullstackv4-peminjaman
    ```
+   
 3. **Install semua *dependencies* yang diperlukan**
+   
   **Backend**
    ```bash
    cd backend
