@@ -107,16 +107,16 @@ Buat database baru melalui phpMyAdmin dengan nama library_loan.
 ---
 
 ## 🔗 Endpoint API (Backend Integration)
-Method HTTP,        Endpoint URL,        Deskripsi Fungsi
-GET,                /peminjaman,        Mengambil seluruh data daftar peminjaman buku
+Method HTTP,Endpoint URL,Deskripsi Fungsi
+GET,/peminjaman,Mengambil seluruh data daftar peminjaman buku
 
-GET,                /peminjaman/:id,        Mengambil detail data berdasarkan ID untuk form edit
+GET,/peminjaman/:id,Mengambil detail data berdasarkan ID untuk form edit
 
-POST,                /peminjaman,        Menambahkan data peminjaman buku baru
+POST,/peminjaman,Menambahkan data peminjaman buku baru
 
-PUT / PATCH,        /peminjaman/:id,        Memperbarui data peminjaman berdasarkan ID
+PUT / PATCH,/peminjaman/:id,Memperbarui data peminjaman berdasarkan ID
 
-DELETE,            /peminjaman/:id,        Menghapus data peminjaman berdasarkan ID
+DELETE,/peminjaman/:id,Menghapus data peminjaman berdasarkan ID
 
 ---
 
